@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/marzianor9/gatekeepergatekeeper/test/gatekeeper"
+	. "github.com/marzianor9/gatekeeper/test/gatekeeper_test"
 )
 
 var _ = Describe("Gatekeeper", func() {
