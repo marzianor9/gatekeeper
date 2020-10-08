@@ -1,6 +1,7 @@
 package gatekeeper_test
 
 import (
+	"fmt"
 	"testing"
 
 	. "github.com/onsi/ginkgo"
@@ -8,6 +9,7 @@ import (
 )
 
 func TestGatekeeperTest(t *testing.T) {
+	fmt.Println("i am suite")
 	RegisterFailHandler(Fail)
 	RunSpecs(t, "GatekeeperTest Suite")
 }
